@@ -80,6 +80,7 @@ modalImage.addEventListener('mouseout', () => {
   modalText.classList.remove('active')
 })
 
+
 // Close Modal
 modalContainer.addEventListener('click', (e) => {
   !e.target.classList.contains('hide') && 
